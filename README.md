@@ -1,5 +1,7 @@
 # Blast L2 Kit 
 
+[![npm](https://img.shields.io/npm/v/blast-l2-kit)](https://www.npmjs.com/package/blast-l2-kit)
+
 In an effort to bring more standardization and clarity to deploying on Blast L2, we've created this kit to help developers. Import directly into your project to use the Blast interfaces, or reference as a model for your own library. Includes interface for talking to Blast contracts and to configure points operator.
 
 ## Installation
@@ -7,7 +9,7 @@ In an effort to bring more standardization and clarity to deploying on Blast L2,
 To install with [**Hardhat**](https://github.com/nomiclabs/hardhat):
 
 ```sh
-npm install blast-kit
+npm install blast-l2-kit
 ```
 
 ## Contracts
