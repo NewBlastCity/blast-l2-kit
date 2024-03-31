@@ -1,0 +1,13 @@
+{
+  "name": "blast-l2-kit",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Starter kit for building smart contracts on Blast L2. Includes Blast interfaces and example code.",
+  "files": [
+    "src/**/*.sol"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newblastcity/blast-l2-kit.git"
+  }
+}

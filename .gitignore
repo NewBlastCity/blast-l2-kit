@@ -1,0 +1,17 @@
+# NodeJS files
+node_modules/
+
+# Hardhat files
+cache
+artifacts
+
+cache/
+out/
+
+# Ignore Environment Variables!
+.env
+.env.prod
+
+# Ignore all vscode settings
+.vscode/
+
