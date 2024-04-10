@@ -24,12 +24,14 @@ contract WETHRebasingExample  is Ownable{
         wethRebase.withdraw(wad);
     }
     
-    function count () external onlyOwner{
-       wethRebase.count();
+  function count () external view returns (uint256){
+     uint256 _count =  wethRebase.count();
+     return _count;
     }
 
-    function sharePrice() external onlyOwner{
-        wethRebase.sharePrice();
+    function sharePrice() external view  returns(uint256){
+       uint256 _sharedPrice =  wethRebase.sharePrice();
+       return _sharedPrice; 
     }
 
     // Send a specify amount of Eth and get  WETH
