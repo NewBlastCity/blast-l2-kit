@@ -21,12 +21,16 @@ src
 ├─ IBlast — "Interface for Blast yield contract"
 ├─ IBlastPoints — "Interface for Blast points operator"
 ├─ IERC20Rebasing — "Interface to change claim yield for ERC20 tokens (WETH & USDB)"
-└─ examples
+└─ examples/
    ├─ StandardAutomaticYield — "Setup for a contract with automatic yield"
    ├─ StandardClaimableYield — "Setup for a contract with claimable yield"
    ├─ UpgradeableAutomaticYield - "Setup for an upgradeable contract with automatic yield"
    ├─ ChangeYieldWethAndUsdb - "Example function for changing claim yield on WETH and USDB"
 ```
+
+## Points Scripts
+
+Within this repo is also a collection of scripts to check and distribute Blast Points. Reference the [README](src/points-scripts/README.md) there for more details.
 
 ## Blast Addresses
 

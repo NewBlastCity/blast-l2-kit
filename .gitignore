@@ -1,5 +1,6 @@
 # NodeJS files
 node_modules/
+pnpm-lock.yaml
 
 # Hardhat files
 cache
@@ -14,4 +15,3 @@ out/
 
 # Ignore all vscode settings
 .vscode/
-
