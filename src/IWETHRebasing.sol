@@ -9,7 +9,7 @@ interface IWETHRebasing {
     /// @param wad Amount of ETH to withdraw. 
     function withdraw(uint256 wad) external;
 
-    ///  Get the  and return the current share price.
+    /// Get the current share price.
     /// @return Current share price.
     function sharePrice() external view returns (uint256);
 

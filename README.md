@@ -21,11 +21,13 @@ src
 ├─ IBlast — "Interface for Blast yield contract"
 ├─ IBlastPoints — "Interface for Blast points operator"
 ├─ IERC20Rebasing — "Interface to change claim yield for ERC20 tokens (WETH & USDB)"
+├─ IWETHRebasing — "Interface for converting WETH <-> ETH"
 └─ examples/
    ├─ StandardAutomaticYield — "Setup for a contract with automatic yield"
    ├─ StandardClaimableYield — "Setup for a contract with claimable yield"
    ├─ UpgradeableAutomaticYield - "Setup for an upgradeable contract with automatic yield"
    ├─ ChangeYieldWethAndUsdb - "Example function for changing claim yield on WETH and USDB"
+   └─ WETHRebasing - "Example on how to convert WETH <-> ETH"
 ```
 
 ## Points Scripts
@@ -62,7 +64,7 @@ Feel free to make a pull request. Some things that could be added:
 - [ ] foundry support
 - [ ] tests
 - [ ] deploy scripts for examples
-- [ ] example on how to convert WETH -> ETH
+- [x] example on how to convert WETH -> ETH (thank you [osain-az](https://github.com/osain-az))
 
 Please follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
 
