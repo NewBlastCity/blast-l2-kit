@@ -64,6 +64,7 @@ Feel free to make a pull request. Some things that could be added:
 - [ ] foundry support
 - [ ] tests
 - [ ] deploy scripts for examples
+- [ ] add CI/CD for releases
 - [x] example on how to convert WETH -> ETH (thank you [osain-az](https://github.com/osain-az))
 
 Please follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
