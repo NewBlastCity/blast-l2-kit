@@ -13,22 +13,25 @@ contract WETHRebasingExample  is Ownable{
     
     constructor(address _initialOwner) Ownable(_initialOwner) {}
 
-    // deposit/swap ETH  for WETH
+    /// deposit/swap ETH  for WETH
     function deposit() external onlyOwner {
       wethRebase.deposit();
     }
 
-    //swap/withdraw  ETH from WETH
-    // @param  amount of ETH want to withdraw  from WETH
+    /// swap/withdraw  ETH from WETH
+    /// @param wad amount of ETH to be withdraw  from WETH
     function withdraw( uint256 wad) external onlyOwner{
         wethRebase.withdraw(wad);
     }
     
+  /// Get the total number of shares that has distributed.
   function count () external view returns (uint256){
      uint256 _count =  wethRebase.count();
      return _count;
     }
 
+     /// Retrieve the current share price based on the current contract balance.
+    /// @return Current share price.
     function sharePrice() external view  returns(uint256){
        uint256 _sharedPrice =  wethRebase.sharePrice();
        return _sharedPrice; 

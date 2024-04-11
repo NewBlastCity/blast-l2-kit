@@ -2,10 +2,10 @@ pragma solidity ^0.8.23;
 
 
 interface IWETHRebasing {
-       /// Deposit/swap ETH for WETH (swap ETH for WETH).
+    /// Deposit/swap ETH for WETH (swap ETH for WETH).
     function deposit() external payable;
 
-    /// Withdraw7swap ETH from WETH.
+    /// Withdraw/swap ETH from WETH.
     /// @param wad Amount of ETH to withdraw. 
     function withdraw(uint256 wad) external;
 
