@@ -8,7 +8,7 @@ import "../IBlast.sol";
 import "../IBlastPoints.sol";
 
 contract BKitExampleUpgradeableAutomaticYield is 
-    Initializable
+    Initializable,
     OwnableUpgradeable,
     UUPSUpgradeable
 {
